@@ -7,5 +7,7 @@ console.log(dealPassenger);
 const titlePriceTicket= document.getElementById('title-price-ticket');
 
 
-
-
+ticketForm.addEventListener('submit',function(event){
+        event.preventDefault();
+    }
+)
