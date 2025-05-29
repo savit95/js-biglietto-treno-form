@@ -28,5 +28,7 @@ ticketForm.addEventListener('submit',function(event){
 
         console.log(price);
 
+        titlePriceTicket.innerHTML= `Il prezzo del biglietto: ${price.toFixed(2)} € ` 
+
     }
 )
