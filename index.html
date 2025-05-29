@@ -18,7 +18,7 @@
         </div>
     </nav>    
     <main>
-        <form action="" class="mt-3 col-10 mx-auto">
+        <form id="ticket-form" class="mt-3 col-10 mx-auto">
             <div class="mb-3 ">
                 <label for="name-passenger" class="form-label">Nome del Passeggero:</label>
                 <input type="text" class="form-control" id="name-passenger" placeholder="Inserire nome passeggero" required>
@@ -32,21 +32,21 @@
                 <input type="number" class="form-control" id="number-km" placeholder="Inserire numero di KM da percorrere" required>
             </div>
             <div class="mb-3 ">
-                <label for="deal" class="form-label">Sconto:</label>
-                <select id="deal" class="form-select" aria-label="Default select example" required>
+                <label for="deal-passenger" class="form-label">Sconto:</label>
+                <select id="deal-passenger" class="form-select" aria-label="Default select example" required>
                     <option selected>Scegli il tuo sconto</option>
-                    <option value="full-price">Prezzo intero</option>
-                    <option value="student-deal">Sconto studenti</option>
-                    <option value="over-deal">Sconto over 65</option>
+                    <option value="fullprice">Prezzo intero</option>
+                    <option value="studentdeal">Sconto studenti</option>
+                    <option value="overdeal">Sconto over 65</option>
                 </select>
             </div>
             <div class="mb-3">
-                <button id="calculate-button" class="btn btn-danger " type="submit">Calcola</button>
+                <button class="btn btn-danger " type="submit">Calcola</button>
             </div>
         </form>
     </main>
 
-    <footer class="mt-auto bg-danger text-center border-top border-black border-5">© Biglietto Treno 2025</footer>
+    <footer class="mt-auto bg-danger text-center text-light border-top border-black border-5">© Biglietto Treno 2025</footer>
 
 
 
