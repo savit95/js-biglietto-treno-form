@@ -9,5 +9,9 @@ const titlePriceTicket= document.getElementById('title-price-ticket');
 
 ticketForm.addEventListener('submit',function(event){
         event.preventDefault();
+        let kilometers = numberKm.value;
+        console.log(kilometers);
+        let deal = dealPassenger.value;
+        console.log(deal);
     }
 )
