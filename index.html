@@ -31,8 +31,21 @@
                 <label for="number-km" class="form-label">Numero di Km:</label>
                 <input type="number" class="form-control" id="number-km" placeholder="Inserire numero di KM da percorrere" required>
             </div>
+            <div class="mb-3 ">
+                <label for="deal" class="form-label">Sconto:</label>
+                <select id="deal" class="form-select" aria-label="Default select example">
+                    <option selected>Scegli il tuo sconto</option>
+                    <option value="1">Prezzo intero</option>
+                    <option value="2">Sconto studenti</option>
+                    <option value="3">Sconto over 65</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <button id="calculate-button" class="btn btn-danger " type="submit">Calcola</button>
+            </div>
         </form>
     </main>
+    
 
 
 
